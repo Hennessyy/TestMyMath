@@ -72,22 +72,41 @@ public class MyMath {
 
     public static int frac(int x){
 
-        int number = x;
+
         
-        if(number>=1) {
+        if(x >= 1) {
             int answer=1;
 
-            for (int i = 1; i < x+1; i++) {
+            if(x == 1){
+                return 0;
+            }
 
-                if(i==1){
-                answer +=i*i;
-                }
-                answer  = answer * number;
-                number--;
+            for (int i = 1; i < x ; i++) {
+
+
+            answer += i*answer;
+
             }
             return answer;
+        }else{
+            return -1;
         }
 
+
+    }
+
+
+    public static int primeNumberTest(int x){
+
+
+        if (x==2) {
+            return 1;
+        }
+        if(x%2!=0){
+           return 1;
+        }else{
+            return 0;
+        }
 
     }
 
