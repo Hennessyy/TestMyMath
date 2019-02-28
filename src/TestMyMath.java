@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 public class TestMyMath {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         int answer = MyMath.smallestNum(5,10,15);
         JOptionPane.showMessageDialog(null,"answer is " + answer);
@@ -34,7 +34,7 @@ public class TestMyMath {
 
     }
 
-
+*/
 
 
 
